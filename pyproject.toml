@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apple-stock-radar"
+version = "0.1.0"
+description = "Privacy-conscious Apple Store pickup monitoring and catalog discovery"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Ar2mis"}]
+dependencies = ["cryptography>=43,<52"]
+
+[project.scripts]
+apple-stock-radar = "apple_stock_radar.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["apple_stock_radar*"]

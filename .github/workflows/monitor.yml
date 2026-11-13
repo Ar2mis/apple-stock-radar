@@ -1,0 +1,67 @@
+name: Stock Monitor
+on:
+  schedule:
+    - cron: '2-59/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      test_notification:
+        description: Send one startup test instead of checking stock
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: stock-monitor
+  cancel-in-progress: false
+jobs:
+  monitor:
+    if: vars.MONITOR_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      ZIP_CODE: ${{ secrets.ZIP_CODE }}
+      SEARCH_RADIUS_MILES: ${{ vars.SEARCH_RADIUS_MILES || '50' }}
+      STORE_NAMES: ${{ secrets.STORE_NAMES }}
+      CHECK_INTERVAL_SECONDS: ${{ vars.CHECK_INTERVAL_SECONDS || '60' }}
+      REPEAT_NOTIFICATION_SECONDS: ${{ vars.REPEAT_NOTIFICATION_SECONDS || '180' }}
+      STARTUP_NOTIFICATION: 'false'
+      STATE_PATH: .state/monitor.state
+      STATE_ENCRYPTION_KEY: ${{ secrets.STATE_ENCRYPTION_KEY }}
+      NOTIFY_CHANNELS: ${{ vars.NOTIFY_CHANNELS || 'bark' }}
+      BARK_KEY: ${{ secrets.BARK_KEY }}
+      BARK_SERVER: ${{ vars.BARK_SERVER || 'https://api.day.app' }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      PUSHOVER_API_TOKEN: ${{ secrets.PUSHOVER_API_TOKEN }}
+      PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+      NTFY_SERVER: ${{ vars.NTFY_SERVER || 'https://ntfy.sh' }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -e .
+      - name: Compute private state scope
+        id: scope
+        run: echo "value=$(python -m apple_stock_radar --cache-scope)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .state/monitor.state
+          key: radar-v1-${{ steps.scope.outputs.value }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: radar-v1-${{ steps.scope.outputs.value }}-
+      - name: Check inventory
+        if: ${{ !inputs.test_notification }}
+        run: python -m apple_stock_radar --once
+      - name: Explicit startup test
+        if: ${{ inputs.test_notification }}
+        run: python -m apple_stock_radar --test-notification
+      - uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        if: ${{ always() && steps.scope.outputs.value != '' && hashFiles('.state/monitor.state') != '' }}
+        with:
+          path: .state/monitor.state
+          key: radar-v1-${{ steps.scope.outputs.value }}-${{ github.run_id }}-${{ github.run_attempt }}

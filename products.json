@@ -1,0 +1,3025 @@
+{
+  "schema_version": 1,
+  "region": "US",
+  "notes": "Only named Apple Store metadata is imported. New variants are disabled. Upcoming entries must have status upcoming, part_number null and enabled false until Apple publishes a part number.",
+  "categories": [
+    {
+      "id": "iphone",
+      "enabled": true,
+      "models": [
+        {
+          "name": "iPhone 16",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "iPhone 16 128GB Black",
+              "part_number": "MYAP3LL/A",
+              "storage": "128GB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MYAP3LL/A"
+            },
+            {
+              "name": "iPhone 16 128GB White",
+              "part_number": "MYAQ3LL/A",
+              "storage": "128GB",
+              "color": "White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MYAQ3LL/A"
+            },
+            {
+              "name": "iPhone 16 128GB Pink",
+              "part_number": "MYAR3LL/A",
+              "storage": "128GB",
+              "color": "Pink",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MYAR3LL/A"
+            },
+            {
+              "name": "iPhone 16 128GB Ultramarine",
+              "part_number": "MYAT3LL/A",
+              "storage": "128GB",
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MYAT3LL/A"
+            },
+            {
+              "name": "iPhone 16 128GB Teal",
+              "part_number": "MYAW3LL/A",
+              "storage": "128GB",
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MYAW3LL/A"
+            }
+          ]
+        },
+        {
+          "name": "iPhone 17",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "iPhone 17 256GB Black",
+              "part_number": "MG464LL/A",
+              "storage": "256GB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG464LL/A"
+            },
+            {
+              "name": "iPhone 17 256GB White",
+              "part_number": "MG474LL/A",
+              "storage": "256GB",
+              "color": "White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG474LL/A"
+            },
+            {
+              "name": "iPhone 17 256GB Mist Blue",
+              "part_number": "MG484LL/A",
+              "storage": "256GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG484LL/A"
+            },
+            {
+              "name": "iPhone 17 256GB Lavender",
+              "part_number": "MG494LL/A",
+              "storage": "256GB",
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG494LL/A"
+            },
+            {
+              "name": "iPhone 17 256GB Sage",
+              "part_number": "MG4A4LL/A",
+              "storage": "256GB",
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG4A4LL/A"
+            },
+            {
+              "name": "iPhone 17 512GB Black",
+              "part_number": "MG4E4LL/A",
+              "storage": "512GB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG4E4LL/A"
+            },
+            {
+              "name": "iPhone 17 512GB White",
+              "part_number": "MG4F4LL/A",
+              "storage": "512GB",
+              "color": "White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG4F4LL/A"
+            },
+            {
+              "name": "iPhone 17 512GB Mist Blue",
+              "part_number": "MG4H4LL/A",
+              "storage": "512GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG4H4LL/A"
+            },
+            {
+              "name": "iPhone 17 512GB Lavender",
+              "part_number": "MG4J4LL/A",
+              "storage": "512GB",
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG4J4LL/A"
+            },
+            {
+              "name": "iPhone 17 512GB Sage",
+              "part_number": "MG4Q4LL/A",
+              "storage": "512GB",
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG4Q4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "iPhone 17e",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "iPhone 17e 256GB Black",
+              "part_number": "MHRN4LL/A",
+              "storage": "256GB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHRN4LL/A"
+            },
+            {
+              "name": "iPhone 17e 256GB White",
+              "part_number": "MHRP4LL/A",
+              "storage": "256GB",
+              "color": "White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHRP4LL/A"
+            },
+            {
+              "name": "iPhone 17e 256GB Soft Pink",
+              "part_number": "MHRQ4LL/A",
+              "storage": "256GB",
+              "color": "Pink",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHRQ4LL/A"
+            },
+            {
+              "name": "iPhone 17e 512GB Black",
+              "part_number": "MHRR4LL/A",
+              "storage": "512GB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHRR4LL/A"
+            },
+            {
+              "name": "iPhone 17e 512GB White",
+              "part_number": "MHRT4LL/A",
+              "storage": "512GB",
+              "color": "White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHRT4LL/A"
+            },
+            {
+              "name": "iPhone 17e 512GB Soft Pink",
+              "part_number": "MHRU4LL/A",
+              "storage": "512GB",
+              "color": "Pink",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHRU4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "iPhone 18 Pro",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "iPhone 18 Pro 256GB Black",
+              "part_number": "MJQ34LL/A",
+              "storage": "256GB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQ34LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 256GB Silver",
+              "part_number": "MJQ44LL/A",
+              "storage": "256GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQ44LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 256GB Burgundy",
+              "part_number": "MJQ54LL/A",
+              "storage": "256GB",
+              "color": "Burgundy",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQ54LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 256GB Glacier",
+              "part_number": "MJQ64LL/A",
+              "storage": "256GB",
+              "color": "Glacier",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQ64LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 512GB Black",
+              "part_number": "MJQ74LL/A",
+              "storage": "512GB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQ74LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 512GB Silver",
+              "part_number": "MJQ84LL/A",
+              "storage": "512GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQ84LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 512GB Burgundy",
+              "part_number": "MJQ94LL/A",
+              "storage": "512GB",
+              "color": "Burgundy",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQ94LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 512GB Glacier",
+              "part_number": "MJQA4LL/A",
+              "storage": "512GB",
+              "color": "Glacier",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQA4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 1TB Black",
+              "part_number": "MJQC4LL/A",
+              "storage": "1TB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQC4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 1TB Silver",
+              "part_number": "MJQD4LL/A",
+              "storage": "1TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQD4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 1TB Burgundy",
+              "part_number": "MJQE4LL/A",
+              "storage": "1TB",
+              "color": "Burgundy",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQE4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 1TB Glacier",
+              "part_number": "MJQF4LL/A",
+              "storage": "1TB",
+              "color": "Glacier",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQF4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 2TB Black",
+              "part_number": "MJQG4LL/A",
+              "storage": "2TB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQG4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 2TB Silver",
+              "part_number": "MJQH4LL/A",
+              "storage": "2TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQH4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 2TB Burgundy",
+              "part_number": "MJQJ4LL/A",
+              "storage": "2TB",
+              "color": "Burgundy",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQJ4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro 2TB Glacier",
+              "part_number": "MJQK4LL/A",
+              "storage": "2TB",
+              "color": "Glacier",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJQK4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "iPhone 18 Pro Max",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "iPhone 18 Pro Max 256GB Black",
+              "part_number": "MJW44LL/A",
+              "storage": "256GB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJW44LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 256GB Silver",
+              "part_number": "MJW54LL/A",
+              "storage": "256GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJW54LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 256GB Burgundy",
+              "part_number": "MJW64LL/A",
+              "storage": "256GB",
+              "color": "Burgundy",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJW64LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 256GB Glacier",
+              "part_number": "MJW74LL/A",
+              "storage": "256GB",
+              "color": "Glacier",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJW74LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 512GB Black",
+              "part_number": "MJW84LL/A",
+              "storage": "512GB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJW84LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 512GB Silver",
+              "part_number": "MJW94LL/A",
+              "storage": "512GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJW94LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 512GB Burgundy",
+              "part_number": "MJWA4LL/A",
+              "storage": "512GB",
+              "color": "Burgundy",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJWA4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 512GB Glacier",
+              "part_number": "MJWC4LL/A",
+              "storage": "512GB",
+              "color": "Glacier",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJWC4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 1TB Black",
+              "part_number": "MJWD4LL/A",
+              "storage": "1TB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJWD4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 1TB Silver",
+              "part_number": "MJWE4LL/A",
+              "storage": "1TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJWE4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 1TB Burgundy",
+              "part_number": "MJWF4LL/A",
+              "storage": "1TB",
+              "color": "Burgundy",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJWF4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 1TB Glacier",
+              "part_number": "MJWG4LL/A",
+              "storage": "1TB",
+              "color": "Glacier",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJWG4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 2TB Black",
+              "part_number": "MJWH4LL/A",
+              "storage": "2TB",
+              "color": "Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJWH4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 2TB Silver",
+              "part_number": "MJWJ4LL/A",
+              "storage": "2TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJWJ4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 2TB Burgundy",
+              "part_number": "MJWK4LL/A",
+              "storage": "2TB",
+              "color": "Burgundy",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJWK4LL/A"
+            },
+            {
+              "name": "iPhone 18 Pro Max 2TB Glacier",
+              "part_number": "MJWL4LL/A",
+              "storage": "2TB",
+              "color": "Glacier",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJWL4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "iPhone Air",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "iPhone Air 256GB Space Black",
+              "part_number": "MG184LL/A",
+              "storage": "256GB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG184LL/A"
+            },
+            {
+              "name": "iPhone Air 256GB Cloud White",
+              "part_number": "MG194LL/A",
+              "storage": "256GB",
+              "color": "White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG194LL/A"
+            },
+            {
+              "name": "iPhone Air 256GB Light Gold",
+              "part_number": "MG1A4LL/A",
+              "storage": "256GB",
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG1A4LL/A"
+            },
+            {
+              "name": "iPhone Air 256GB Sky Blue",
+              "part_number": "MG1D4LL/A",
+              "storage": "256GB",
+              "color": "Sky Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG1D4LL/A"
+            },
+            {
+              "name": "iPhone Air 512GB Space Black",
+              "part_number": "MG1E4LL/A",
+              "storage": "512GB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG1E4LL/A"
+            },
+            {
+              "name": "iPhone Air 512GB Cloud White",
+              "part_number": "MG1G4LL/A",
+              "storage": "512GB",
+              "color": "White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG1G4LL/A"
+            },
+            {
+              "name": "iPhone Air 512GB Light Gold",
+              "part_number": "MG1H4LL/A",
+              "storage": "512GB",
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG1H4LL/A"
+            },
+            {
+              "name": "iPhone Air 512GB Sky Blue",
+              "part_number": "MG1J4LL/A",
+              "storage": "512GB",
+              "color": "Sky Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG1J4LL/A"
+            },
+            {
+              "name": "iPhone Air 1TB Space Black",
+              "part_number": "MG1L4LL/A",
+              "storage": "1TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG1L4LL/A"
+            },
+            {
+              "name": "iPhone Air 1TB Cloud White",
+              "part_number": "MG1N4LL/A",
+              "storage": "1TB",
+              "color": "White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG1N4LL/A"
+            },
+            {
+              "name": "iPhone Air 1TB Light Gold",
+              "part_number": "MG1P4LL/A",
+              "storage": "1TB",
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG1P4LL/A"
+            },
+            {
+              "name": "iPhone Air 1TB Sky Blue",
+              "part_number": "MG1Q4LL/A",
+              "storage": "1TB",
+              "color": "Sky Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MG1Q4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "iPhone Duo",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "iPhone Duo 256GB Star White",
+              "part_number": "MK1E4LL/A",
+              "storage": "256GB",
+              "color": "Star White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MK1E4LL/A"
+            },
+            {
+              "name": "iPhone Duo 256GB Night Sky",
+              "part_number": "MK1F4LL/A",
+              "storage": "256GB",
+              "color": "Night Sky",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MK1F4LL/A"
+            },
+            {
+              "name": "iPhone Duo 512GB Star White",
+              "part_number": "MK1G4LL/A",
+              "storage": "512GB",
+              "color": "Star White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MK1G4LL/A"
+            },
+            {
+              "name": "iPhone Duo 512GB Night Sky",
+              "part_number": "MK1H4LL/A",
+              "storage": "512GB",
+              "color": "Night Sky",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MK1H4LL/A"
+            },
+            {
+              "name": "iPhone Duo 1TB Star White",
+              "part_number": "MK1J4LL/A",
+              "storage": "1TB",
+              "color": "Star White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MK1J4LL/A"
+            },
+            {
+              "name": "iPhone Duo 1TB Night Sky",
+              "part_number": "MK1L4LL/A",
+              "storage": "1TB",
+              "color": "Night Sky",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MK1L4LL/A"
+            },
+            {
+              "name": "iPhone Duo 2TB Star White",
+              "part_number": "MK1Q4LL/A",
+              "storage": "2TB",
+              "color": "Star White",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MK1Q4LL/A"
+            },
+            {
+              "name": "iPhone Duo 2TB Night Sky",
+              "part_number": "MK1R4LL/A",
+              "storage": "2TB",
+              "color": "Night Sky",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MK1R4LL/A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mac",
+      "enabled": true,
+      "models": [
+        {
+          "name": "Mac Studio",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "Mac Studio M5 Max chip 18-core CPU, 32‑core GPU",
+              "part_number": "MHL64LL/A",
+              "storage": null,
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHL64LL/A"
+            },
+            {
+              "name": "Mac Studio M5 Ultra chip 30-core CPU, 64‑core GPU",
+              "part_number": "MHL74LL/A",
+              "storage": null,
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHL74LL/A"
+            }
+          ]
+        },
+        {
+          "name": "Mac mini",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "Mac mini M6 chip m6-12-12",
+              "part_number": "MHQK4LL/A",
+              "storage": null,
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHQK4LL/A"
+            },
+            {
+              "name": "Mac mini M5 Pro chip 15‑core CPU, 16‑core GPU",
+              "part_number": "MHQN4LL/A",
+              "storage": null,
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHQN4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "MacBook Air",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "MacBook Air Silver 10‑core CPU, 8‑core GPU, 16‑core Neural Engine 13-inch",
+              "part_number": "MDH74LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDH74LL/A"
+            },
+            {
+              "name": "MacBook Air Starlight 10‑core CPU, 8‑core GPU, 16‑core Neural Engine 13-inch",
+              "part_number": "MDHA4LL/A",
+              "storage": null,
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDHA4LL/A"
+            },
+            {
+              "name": "MacBook Air Midnight 10‑core CPU, 8‑core GPU, 16‑core Neural Engine 13-inch",
+              "part_number": "MDHE4LL/A",
+              "storage": null,
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDHE4LL/A"
+            },
+            {
+              "name": "MacBook Air Sky Blue 10‑core CPU, 8‑core GPU, 16‑core Neural Engine 13-inch",
+              "part_number": "MDHH4LL/A",
+              "storage": null,
+              "color": "Sky Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDHH4LL/A"
+            },
+            {
+              "name": "MacBook Air Silver 10‑core CPU, 10‑core GPU, 16‑core Neural Engine 15-inch",
+              "part_number": "MDV94LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDV94LL/A"
+            },
+            {
+              "name": "MacBook Air Starlight 10‑core CPU, 10‑core GPU, 16‑core Neural Engine 15-inch",
+              "part_number": "MDVD4LL/A",
+              "storage": null,
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDVD4LL/A"
+            },
+            {
+              "name": "MacBook Air Midnight 10‑core CPU, 10‑core GPU, 16‑core Neural Engine 15-inch",
+              "part_number": "MDVH4LL/A",
+              "storage": null,
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDVH4LL/A"
+            },
+            {
+              "name": "MacBook Air Sky Blue 10‑core CPU, 10‑core GPU, 16‑core Neural Engine 15-inch",
+              "part_number": "MDVQ4LL/A",
+              "storage": null,
+              "color": "Sky Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDVQ4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "MacBook Pro",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "MacBook Pro Silver M5 Pro chip 15‑core CPU, 16‑core GPU Standard display 14-inch",
+              "part_number": "MGDN4LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MGDN4LL/A"
+            },
+            {
+              "name": "MacBook Pro Silver M5 Max chip 18‑core CPU, 32‑core GPU Standard display 14-inch",
+              "part_number": "MGDQ4LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MGDQ4LL/A"
+            },
+            {
+              "name": "MacBook Pro Space Black M5 Pro chip 15‑core CPU, 16‑core GPU Standard display 14-inch",
+              "part_number": "MGDR4LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MGDR4LL/A"
+            },
+            {
+              "name": "MacBook Pro Space Black M5 Max chip 18‑core CPU, 32‑core GPU Standard display 14-inch",
+              "part_number": "MGDU4LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MGDU4LL/A"
+            },
+            {
+              "name": "MacBook Pro Silver M5 Pro chip 18‑core CPU, 20‑core GPU Standard display 16-inch",
+              "part_number": "MGE44LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MGE44LL/A"
+            },
+            {
+              "name": "MacBook Pro Silver M5 Max chip 18‑core CPU, 32‑core GPU Standard display 16-inch",
+              "part_number": "MGE74LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MGE74LL/A"
+            },
+            {
+              "name": "MacBook Pro Space Black M5 Pro chip 18‑core CPU, 20‑core GPU Standard display 16-inch",
+              "part_number": "MGEA4LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MGEA4LL/A"
+            },
+            {
+              "name": "MacBook Pro Space Black M5 Max chip 18‑core CPU, 32‑core GPU Standard display 16-inch",
+              "part_number": "MGED4LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MGED4LL/A"
+            },
+            {
+              "name": "MacBook Pro Space Black M6 chip m6-12-12 Standard display 14-inch",
+              "part_number": "MHWT4LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHWT4LL/A"
+            },
+            {
+              "name": "MacBook Pro Silver M6 chip m6-12-12 Standard display 14-inch",
+              "part_number": "MHWW4LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHWW4LL/A"
+            },
+            {
+              "name": "MacBook Pro Space Black M6 chip m6-12-12 Nano-texture display 14-inch",
+              "part_number": "MJ2C4LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ2C4LL/A"
+            },
+            {
+              "name": "MacBook Pro with PROLED XDR Display Silver M5 Pro chip 15‑core CPU, 16‑core GPU Standard glass 14-inch",
+              "part_number": "MJ2G4LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ2G4LL/A"
+            },
+            {
+              "name": "MacBook Pro with PROLED XDR Display Silver M5 Max chip 18‑core CPU, 32‑core GPU Standard glass 14-inch",
+              "part_number": "MJ2J4LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ2J4LL/A"
+            },
+            {
+              "name": "MacBook Pro with PROLED XDR Display Space Black M5 Pro chip 15‑core CPU, 16‑core GPU Standard glass 14-inch",
+              "part_number": "MJ2K4LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ2K4LL/A"
+            },
+            {
+              "name": "MacBook Pro with PROLED XDR Display Space Black M5 Max chip 18‑core CPU, 32‑core GPU Standard glass 14-inch",
+              "part_number": "MJ2M4LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ2M4LL/A"
+            },
+            {
+              "name": "MacBook Pro with PROLED XDR Display Silver M5 Pro chip 18‑core CPU, 20‑core GPU Standard glass 16-inch",
+              "part_number": "MJ2W4LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ2W4LL/A"
+            },
+            {
+              "name": "MacBook Pro with PROLED XDR Display Silver M5 Max chip 18‑core CPU, 32‑core GPU Standard glass 16-inch",
+              "part_number": "MJ2X4LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ2X4LL/A"
+            },
+            {
+              "name": "MacBook Pro with PROLED XDR Display Silver M5 Max chip 18‑core CPU, 40‑core GPU Standard glass 16-inch",
+              "part_number": "MJ2Y4LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ2Y4LL/A"
+            },
+            {
+              "name": "MacBook Pro with PROLED XDR Display Space Black M5 Pro chip 18‑core CPU, 20‑core GPU Standard glass 16-inch",
+              "part_number": "MJ304LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ304LL/A"
+            },
+            {
+              "name": "MacBook Pro with PROLED XDR Display Space Black M5 Max chip 18‑core CPU, 32‑core GPU Standard glass 16-inch",
+              "part_number": "MJ314LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ314LL/A"
+            },
+            {
+              "name": "MacBook Pro with PROLED XDR Display Space Black M5 Max chip 18‑core CPU, 40‑core GPU Standard glass 16-inch",
+              "part_number": "MJ334LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ334LL/A"
+            },
+            {
+              "name": "MacBook Pro with PROLED XDR Display Space Black M5 Pro chip 15‑core CPU, 16‑core GPU Nano-texture glass 14-inch",
+              "part_number": "MJ9X4LL/A",
+              "storage": null,
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ9X4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "iMac",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "iMac Silver M6 chip with two Thunderbolt ports",
+              "part_number": "MH064LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH064LL/A"
+            },
+            {
+              "name": "iMac Green M6 chip with two Thunderbolt ports",
+              "part_number": "MH084LL/A",
+              "storage": null,
+              "color": "Green",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH084LL/A"
+            },
+            {
+              "name": "iMac Blue M6 chip with two Thunderbolt ports",
+              "part_number": "MH094LL/A",
+              "storage": null,
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH094LL/A"
+            },
+            {
+              "name": "iMac Pink M6 chip with two Thunderbolt ports",
+              "part_number": "MH0A4LL/A",
+              "storage": null,
+              "color": "Pink",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH0A4LL/A"
+            },
+            {
+              "name": "iMac Silver M6 chip with four Thunderbolt ports",
+              "part_number": "MH114LL/A",
+              "storage": null,
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH114LL/A"
+            },
+            {
+              "name": "iMac Yellow M6 chip with four Thunderbolt ports",
+              "part_number": "MH174LL/A",
+              "storage": null,
+              "color": "Yellow",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH174LL/A"
+            },
+            {
+              "name": "iMac Green M6 chip with four Thunderbolt ports",
+              "part_number": "MH1D4LL/A",
+              "storage": null,
+              "color": "Green",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH1D4LL/A"
+            },
+            {
+              "name": "iMac Blue M6 chip with four Thunderbolt ports",
+              "part_number": "MH1H4LL/A",
+              "storage": null,
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH1H4LL/A"
+            },
+            {
+              "name": "iMac Pink M6 chip with four Thunderbolt ports",
+              "part_number": "MH1P4LL/A",
+              "storage": null,
+              "color": "Pink",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH1P4LL/A"
+            },
+            {
+              "name": "iMac Purple M6 chip with four Thunderbolt ports",
+              "part_number": "MH1W4LL/A",
+              "storage": null,
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH1W4LL/A"
+            },
+            {
+              "name": "iMac Orange M6 chip with four Thunderbolt ports",
+              "part_number": "MH214LL/A",
+              "storage": null,
+              "color": "Orange",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH214LL/A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ipad",
+      "enabled": true,
+      "models": [
+        {
+          "name": "11-inch iPad Air",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "11-inch iPad Air Wi‑Fi 128GB - Space Gray",
+              "part_number": "MH304LL/A",
+              "storage": "128GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH304LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 128GB - Blue",
+              "part_number": "MH314LL/A",
+              "storage": "128GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH314LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 128GB - Starlight",
+              "part_number": "MH334LL/A",
+              "storage": "128GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH334LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 128GB - Purple",
+              "part_number": "MH344LL/A",
+              "storage": "128GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH344LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 256GB - Space Gray",
+              "part_number": "MH354LL/A",
+              "storage": "256GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH354LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 256GB - Blue",
+              "part_number": "MH364LL/A",
+              "storage": "256GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH364LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 256GB - Starlight",
+              "part_number": "MH374LL/A",
+              "storage": "256GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH374LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 256GB - Purple",
+              "part_number": "MH394LL/A",
+              "storage": "256GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH394LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 512GB - Space Gray",
+              "part_number": "MH3A4LL/A",
+              "storage": "512GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH3A4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 512GB - Blue",
+              "part_number": "MH3C4LL/A",
+              "storage": "512GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH3C4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 512GB - Starlight",
+              "part_number": "MH3D4LL/A",
+              "storage": "512GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH3D4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 512GB - Purple",
+              "part_number": "MH3E4LL/A",
+              "storage": "512GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH3E4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 1TB - Space Gray",
+              "part_number": "MH3G4LL/A",
+              "storage": "1TB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH3G4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 1TB - Blue",
+              "part_number": "MH3H4LL/A",
+              "storage": "1TB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH3H4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 1TB - Starlight",
+              "part_number": "MH3J4LL/A",
+              "storage": "1TB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH3J4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi 1TB - Purple",
+              "part_number": "MH3K4LL/A",
+              "storage": "1TB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH3K4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 128GB - Space Gray",
+              "part_number": "MH784LL/A",
+              "storage": "128GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH784LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 128GB - Blue",
+              "part_number": "MH794LL/A",
+              "storage": "128GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH794LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 128GB - Starlight",
+              "part_number": "MH7A4LL/A",
+              "storage": "128GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7A4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 128GB - Purple",
+              "part_number": "MH7C4LL/A",
+              "storage": "128GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7C4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 256GB - Space Gray",
+              "part_number": "MH7D4LL/A",
+              "storage": "256GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7D4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 256GB - Blue",
+              "part_number": "MH7E4LL/A",
+              "storage": "256GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7E4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 256GB - Starlight",
+              "part_number": "MH7F4LL/A",
+              "storage": "256GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7F4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 256GB - Purple",
+              "part_number": "MH7G4LL/A",
+              "storage": "256GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7G4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 512GB - Space Gray",
+              "part_number": "MH7H4LL/A",
+              "storage": "512GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7H4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 512GB - Blue",
+              "part_number": "MH7J4LL/A",
+              "storage": "512GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7J4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 512GB - Starlight",
+              "part_number": "MH7K4LL/A",
+              "storage": "512GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7K4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 512GB - Purple",
+              "part_number": "MH7L4LL/A",
+              "storage": "512GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7L4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 1TB - Space Gray",
+              "part_number": "MH7M4LL/A",
+              "storage": "1TB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7M4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 1TB - Blue",
+              "part_number": "MH7N4LL/A",
+              "storage": "1TB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7N4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 1TB - Starlight",
+              "part_number": "MH7P4LL/A",
+              "storage": "1TB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7P4LL/A"
+            },
+            {
+              "name": "11-inch iPad Air Wi‑Fi + Cellular 1TB - Purple",
+              "part_number": "MH7Q4LL/A",
+              "storage": "1TB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH7Q4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "11-inch iPad Pro",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 256GB with standard glass - Space Black",
+              "part_number": "MDWK4LL/A",
+              "storage": "256GB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWK4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 256GB with standard glass - Silver",
+              "part_number": "MDWL4LL/A",
+              "storage": "256GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWL4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 512GB with standard glass - Space Black",
+              "part_number": "MDWM4LL/A",
+              "storage": "512GB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWM4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 512GB with standard glass - Silver",
+              "part_number": "MDWN4LL/A",
+              "storage": "512GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWN4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 1TB with standard glass - Space Black",
+              "part_number": "MDWP4LL/A",
+              "storage": "1TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWP4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 1TB with standard glass - Silver",
+              "part_number": "MDWQ4LL/A",
+              "storage": "1TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWQ4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 1TB with nano-texture glass - Space Black",
+              "part_number": "MDWR4LL/A",
+              "storage": "1TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWR4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 1TB with nano-texture glass - Silver",
+              "part_number": "MDWT4LL/A",
+              "storage": "1TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWT4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 2TB with standard glass - Space Black",
+              "part_number": "MDWU4LL/A",
+              "storage": "2TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWU4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 2TB with standard glass - Silver",
+              "part_number": "MDWV4LL/A",
+              "storage": "2TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWV4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 2TB with nano-texture glass - Space Black",
+              "part_number": "MDWW4LL/A",
+              "storage": "2TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWW4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi 2TB with nano-texture glass - Silver",
+              "part_number": "MDWX4LL/A",
+              "storage": "2TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDWX4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 256GB with standard glass - Space Black",
+              "part_number": "ME2N4LL/A",
+              "storage": "256GB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME2N4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 256GB with standard glass - Silver",
+              "part_number": "ME2P4LL/A",
+              "storage": "256GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME2P4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 512GB with standard glass - Space Black",
+              "part_number": "ME2Q4LL/A",
+              "storage": "512GB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME2Q4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 512GB with standard glass - Silver",
+              "part_number": "ME2T4LL/A",
+              "storage": "512GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME2T4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 1TB with standard glass - Space Black",
+              "part_number": "ME2U4LL/A",
+              "storage": "1TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME2U4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 1TB with standard glass - Silver",
+              "part_number": "ME2V4LL/A",
+              "storage": "1TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME2V4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 1TB with nano-texture glass - Space Black",
+              "part_number": "ME2W4LL/A",
+              "storage": "1TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME2W4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 1TB with nano-texture glass - Silver",
+              "part_number": "ME2X4LL/A",
+              "storage": "1TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME2X4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 2TB with standard glass - Space Black",
+              "part_number": "ME2Y4LL/A",
+              "storage": "2TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME2Y4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 2TB with standard glass - Silver",
+              "part_number": "ME6A4LL/A",
+              "storage": "2TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME6A4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 2TB with nano-texture glass - Space Black",
+              "part_number": "ME6C4LL/A",
+              "storage": "2TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME6C4LL/A"
+            },
+            {
+              "name": "11-inch iPad Pro Wi‑Fi + Cellular 2TB with nano-texture glass - Silver",
+              "part_number": "ME6D4LL/A",
+              "storage": "2TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME6D4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "13-inch iPad Air",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "13-inch iPad Air Wi‑Fi 128GB - Space Gray",
+              "part_number": "MH5N4LL/A",
+              "storage": "128GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH5N4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 128GB - Blue",
+              "part_number": "MH5P4LL/A",
+              "storage": "128GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH5P4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 128GB - Starlight",
+              "part_number": "MH5Q4LL/A",
+              "storage": "128GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH5Q4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 128GB - Purple",
+              "part_number": "MH5T4LL/A",
+              "storage": "128GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH5T4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 256GB - Space Gray",
+              "part_number": "MH5U4LL/A",
+              "storage": "256GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH5U4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 256GB - Blue",
+              "part_number": "MH5V4LL/A",
+              "storage": "256GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH5V4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 256GB - Starlight",
+              "part_number": "MH5W4LL/A",
+              "storage": "256GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH5W4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 256GB - Purple",
+              "part_number": "MH5X4LL/A",
+              "storage": "256GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH5X4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 512GB - Space Gray",
+              "part_number": "MH5Y4LL/A",
+              "storage": "512GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH5Y4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 512GB - Blue",
+              "part_number": "MH604LL/A",
+              "storage": "512GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH604LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 512GB - Starlight",
+              "part_number": "MH614LL/A",
+              "storage": "512GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH614LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 512GB - Purple",
+              "part_number": "MH624LL/A",
+              "storage": "512GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH624LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 1TB - Space Gray",
+              "part_number": "MH634LL/A",
+              "storage": "1TB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH634LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 1TB - Blue",
+              "part_number": "MH644LL/A",
+              "storage": "1TB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH644LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 1TB - Starlight",
+              "part_number": "MH654LL/A",
+              "storage": "1TB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH654LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 128GB - Space Gray",
+              "part_number": "MH9D4LL/A",
+              "storage": "128GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9D4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 128GB - Blue",
+              "part_number": "MH9E4LL/A",
+              "storage": "128GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9E4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 128GB - Starlight",
+              "part_number": "MH9F4LL/A",
+              "storage": "128GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9F4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 128GB - Purple",
+              "part_number": "MH9G4LL/A",
+              "storage": "128GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9G4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 256GB - Space Gray",
+              "part_number": "MH9H4LL/A",
+              "storage": "256GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9H4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 256GB - Blue",
+              "part_number": "MH9J4LL/A",
+              "storage": "256GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9J4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 256GB - Starlight",
+              "part_number": "MH9K4LL/A",
+              "storage": "256GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9K4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 256GB - Purple",
+              "part_number": "MH9L4LL/A",
+              "storage": "256GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9L4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 512GB - Space Gray",
+              "part_number": "MH9M4LL/A",
+              "storage": "512GB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9M4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 512GB - Blue",
+              "part_number": "MH9N4LL/A",
+              "storage": "512GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9N4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 512GB - Starlight",
+              "part_number": "MH9P4LL/A",
+              "storage": "512GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9P4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 512GB - Purple",
+              "part_number": "MH9Q4LL/A",
+              "storage": "512GB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9Q4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 1TB - Space Gray",
+              "part_number": "MH9R4LL/A",
+              "storage": "1TB",
+              "color": "Space Gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9R4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 1TB - Blue",
+              "part_number": "MH9T4LL/A",
+              "storage": "1TB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9T4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 1TB - Starlight",
+              "part_number": "MH9U4LL/A",
+              "storage": "1TB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9U4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi + Cellular 1TB - Purple",
+              "part_number": "MH9V4LL/A",
+              "storage": "1TB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MH9V4LL/A"
+            },
+            {
+              "name": "13-inch iPad Air Wi‑Fi 1TB - Purple",
+              "part_number": "MHDK4LL/A",
+              "storage": "1TB",
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHDK4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "13-inch iPad Pro",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 256GB with standard glass - Space Black",
+              "part_number": "MDYJ4LL/A",
+              "storage": "256GB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYJ4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 256GB with standard glass - Silver",
+              "part_number": "MDYK4LL/A",
+              "storage": "256GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYK4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 512GB with standard glass - Space Black",
+              "part_number": "MDYL4LL/A",
+              "storage": "512GB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYL4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 512GB with standard glass - Silver",
+              "part_number": "MDYM4LL/A",
+              "storage": "512GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYM4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 1TB with standard glass - Space Black",
+              "part_number": "MDYN4LL/A",
+              "storage": "1TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYN4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 1TB with standard glass - Silver",
+              "part_number": "MDYP4LL/A",
+              "storage": "1TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYP4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 1TB with nano-texture glass - Space Black",
+              "part_number": "MDYQ4LL/A",
+              "storage": "1TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYQ4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 1TB with nano-texture glass - Silver",
+              "part_number": "MDYR4LL/A",
+              "storage": "1TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYR4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 2TB with standard glass - Space Black",
+              "part_number": "MDYT4LL/A",
+              "storage": "2TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYT4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 2TB with standard glass - Silver",
+              "part_number": "MDYU4LL/A",
+              "storage": "2TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYU4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 2TB with nano-texture glass - Space Black",
+              "part_number": "MDYV4LL/A",
+              "storage": "2TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYV4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi 2TB with nano-texture glass - Silver",
+              "part_number": "MDYW4LL/A",
+              "storage": "2TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MDYW4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 256GB with standard glass - Space Black",
+              "part_number": "ME7W4LL/A",
+              "storage": "256GB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME7W4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 256GB with standard glass - Silver",
+              "part_number": "ME7X4LL/A",
+              "storage": "256GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME7X4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 512GB with standard glass - Space Black",
+              "part_number": "ME7Y4LL/A",
+              "storage": "512GB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME7Y4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 512GB with standard glass - Silver",
+              "part_number": "ME8C4LL/A",
+              "storage": "512GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME8C4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 1TB with standard glass - Space Black",
+              "part_number": "ME8D4LL/A",
+              "storage": "1TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME8D4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 1TB with standard glass - Silver",
+              "part_number": "ME8F4LL/A",
+              "storage": "1TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME8F4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 1TB with nano-texture glass - Space Black",
+              "part_number": "ME8G4LL/A",
+              "storage": "1TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME8G4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 1TB with nano-texture glass - Silver",
+              "part_number": "ME8H4LL/A",
+              "storage": "1TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME8H4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 2TB with standard glass - Space Black",
+              "part_number": "ME8J4LL/A",
+              "storage": "2TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME8J4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 2TB with standard glass - Silver",
+              "part_number": "ME8K4LL/A",
+              "storage": "2TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME8K4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 2TB with nano-texture glass - Space Black",
+              "part_number": "ME8M4LL/A",
+              "storage": "2TB",
+              "color": "Space Black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME8M4LL/A"
+            },
+            {
+              "name": "13-inch iPad Pro Wi‑Fi + Cellular 2TB with nano-texture glass - Silver",
+              "part_number": "ME8N4LL/A",
+              "storage": "2TB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ME8N4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "iPad",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "iPad Wi-Fi 128GB - Silver",
+              "part_number": "MD3Y4LL/A",
+              "storage": "128GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD3Y4LL/A"
+            },
+            {
+              "name": "iPad Wi-Fi 128GB - Blue",
+              "part_number": "MD4A4LL/A",
+              "storage": "128GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD4A4LL/A"
+            },
+            {
+              "name": "iPad Wi-Fi 128GB - Yellow",
+              "part_number": "MD4D4LL/A",
+              "storage": "128GB",
+              "color": "Yellow",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD4D4LL/A"
+            },
+            {
+              "name": "iPad Wi-Fi 128GB - Pink",
+              "part_number": "MD4E4LL/A",
+              "storage": "128GB",
+              "color": "Pink",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD4E4LL/A"
+            },
+            {
+              "name": "iPad Wi-Fi 256GB - Silver",
+              "part_number": "MD4G4LL/A",
+              "storage": "256GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD4G4LL/A"
+            },
+            {
+              "name": "iPad Wi-Fi 256GB - Blue",
+              "part_number": "MD4H4LL/A",
+              "storage": "256GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD4H4LL/A"
+            },
+            {
+              "name": "iPad Wi-Fi 256GB - Yellow",
+              "part_number": "MD4J4LL/A",
+              "storage": "256GB",
+              "color": "Yellow",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD4J4LL/A"
+            },
+            {
+              "name": "iPad Wi-Fi 256GB - Pink",
+              "part_number": "MD4P4LL/A",
+              "storage": "256GB",
+              "color": "Pink",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD4P4LL/A"
+            },
+            {
+              "name": "iPad Wi-Fi 512GB - Silver",
+              "part_number": "MD4Q4LL/A",
+              "storage": "512GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD4Q4LL/A"
+            },
+            {
+              "name": "iPad Wi-Fi 512GB - Blue",
+              "part_number": "MD4Y4LL/A",
+              "storage": "512GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD4Y4LL/A"
+            },
+            {
+              "name": "iPad Wi-Fi 512GB - Yellow",
+              "part_number": "MD5A4LL/A",
+              "storage": "512GB",
+              "color": "Yellow",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD5A4LL/A"
+            },
+            {
+              "name": "iPad Wi-Fi 512GB - Pink",
+              "part_number": "MD5C4LL/A",
+              "storage": "512GB",
+              "color": "Pink",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD5C4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 128GB - Silver",
+              "part_number": "MD7F4LL/A",
+              "storage": "128GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7F4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 128GB - Blue",
+              "part_number": "MD7G4LL/A",
+              "storage": "128GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7G4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 128GB - Yellow",
+              "part_number": "MD7H4LL/A",
+              "storage": "128GB",
+              "color": "Yellow",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7H4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 128GB - Pink",
+              "part_number": "MD7J4LL/A",
+              "storage": "128GB",
+              "color": "Pink",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7J4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 256GB - Silver",
+              "part_number": "MD7K4LL/A",
+              "storage": "256GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7K4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 256GB - Blue",
+              "part_number": "MD7L4LL/A",
+              "storage": "256GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7L4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 256GB - Yellow",
+              "part_number": "MD7M4LL/A",
+              "storage": "256GB",
+              "color": "Yellow",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7M4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 256GB - Pink",
+              "part_number": "MD7N4LL/A",
+              "storage": "256GB",
+              "color": "Pink",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7N4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 512GB - Silver",
+              "part_number": "MD7P4LL/A",
+              "storage": "512GB",
+              "color": "Silver",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7P4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 512GB - Blue",
+              "part_number": "MD7Q4LL/A",
+              "storage": "512GB",
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7Q4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 512GB - Yellow",
+              "part_number": "MD7R4LL/A",
+              "storage": "512GB",
+              "color": "Yellow",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7R4LL/A"
+            },
+            {
+              "name": "iPad Wi‑Fi + Cellular 512GB - Pink",
+              "part_number": "MD7T4LL/A",
+              "storage": "512GB",
+              "color": "Pink",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MD7T4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "iPad mini",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "iPad mini Wi‑Fi + Cellular 128GB with standard glass - Midnight",
+              "part_number": "MJ674LL/A",
+              "storage": "128GB",
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ674LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi + Cellular 128GB with standard glass - Starlight",
+              "part_number": "MJ684LL/A",
+              "storage": "128GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ684LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi + Cellular 256GB with standard glass - Midnight",
+              "part_number": "MJ6C4LL/A",
+              "storage": "256GB",
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6C4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi + Cellular 256GB with standard glass - Starlight",
+              "part_number": "MJ6D4LL/A",
+              "storage": "256GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6D4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi 128GB with standard glass - Midnight",
+              "part_number": "MJ6F4LL/A",
+              "storage": "128GB",
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6F4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi + Cellular 512GB with standard glass - Midnight",
+              "part_number": "MJ6H4LL/A",
+              "storage": "512GB",
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6H4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi 128GB with standard glass - Starlight",
+              "part_number": "MJ6J4LL/A",
+              "storage": "128GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6J4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi + Cellular 512GB with standard glass - Starlight",
+              "part_number": "MJ6K4LL/A",
+              "storage": "512GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6K4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi + Cellular 512GB with nano-texture glass - Midnight",
+              "part_number": "MJ6M4LL/A",
+              "storage": "512GB",
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6M4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi + Cellular 512GB with nano-texture glass - Starlight",
+              "part_number": "MJ6P4LL/A",
+              "storage": "512GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6P4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi 256GB with standard glass - Midnight",
+              "part_number": "MJ6Q4LL/A",
+              "storage": "256GB",
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6Q4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi 256GB with standard glass - Starlight",
+              "part_number": "MJ6R4LL/A",
+              "storage": "256GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6R4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi 512GB with standard glass - Midnight",
+              "part_number": "MJ6V4LL/A",
+              "storage": "512GB",
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6V4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi 512GB with standard glass - Starlight",
+              "part_number": "MJ6W4LL/A",
+              "storage": "512GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6W4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi 512GB with nano-texture glass - Midnight",
+              "part_number": "MJ6X4LL/A",
+              "storage": "512GB",
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6X4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi 512GB with nano-texture glass - Starlight",
+              "part_number": "MJ6Y4LL/A",
+              "storage": "512GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJ6Y4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi 256GB with nano-texture glass - Midnight",
+              "part_number": "ML2Q4LL/A",
+              "storage": "256GB",
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ML2Q4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi 256GB with nano-texture glass - Starlight",
+              "part_number": "ML2T4LL/A",
+              "storage": "256GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ML2T4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi + Cellular 256GB with nano-texture glass - Midnight",
+              "part_number": "ML2W4LL/A",
+              "storage": "256GB",
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ML2W4LL/A"
+            },
+            {
+              "name": "iPad mini Wi‑Fi + Cellular 256GB with nano-texture glass - Starlight",
+              "part_number": "ML2X4LL/A",
+              "storage": "256GB",
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/ML2X4LL/A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "watch",
+      "enabled": true,
+      "models": [
+        {
+          "name": "Apple Watch SE 3",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "Apple Watch SE 3 40mm aluminum starlight GPS",
+              "part_number": "MEHV4LW/A",
+              "storage": null,
+              "color": "starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MEHV4LW/A"
+            },
+            {
+              "name": "Apple Watch SE 3 40mm aluminum midnight GPS",
+              "part_number": "MEHX4LW/A",
+              "storage": null,
+              "color": "midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MEHX4LW/A"
+            },
+            {
+              "name": "Apple Watch SE 3 44mm aluminum starlight GPS",
+              "part_number": "MEP04LW/A",
+              "storage": null,
+              "color": "starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MEP04LW/A"
+            },
+            {
+              "name": "Apple Watch SE 3 44mm aluminum midnight GPS",
+              "part_number": "MEP34LW/A",
+              "storage": null,
+              "color": "midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MEP34LW/A"
+            },
+            {
+              "name": "Apple Watch SE 3 40mm aluminum starlight GPS + Cellular",
+              "part_number": "MEQ14LW/A",
+              "storage": null,
+              "color": "starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MEQ14LW/A"
+            },
+            {
+              "name": "Apple Watch SE 3 40mm aluminum midnight GPS + Cellular",
+              "part_number": "MEQ24LW/A",
+              "storage": null,
+              "color": "midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MEQ24LW/A"
+            },
+            {
+              "name": "Apple Watch SE 3 44mm aluminum starlight GPS + Cellular",
+              "part_number": "MEQ34LW/A",
+              "storage": null,
+              "color": "starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MEQ34LW/A"
+            },
+            {
+              "name": "Apple Watch SE 3 44mm aluminum midnight GPS + Cellular",
+              "part_number": "MEQ44LW/A",
+              "storage": null,
+              "color": "midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MEQ44LW/A"
+            }
+          ]
+        },
+        {
+          "name": "Apple Watch Series 12",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "Apple Watch Series 12 42mm Aluminum space gray GPS",
+              "part_number": "MJFN4LS/A",
+              "storage": null,
+              "color": "space gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJFN4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 42mm Aluminum black GPS",
+              "part_number": "MJFP4LS/A",
+              "storage": null,
+              "color": "black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJFP4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 42mm Aluminum lightgold GPS",
+              "part_number": "MJFQ4LS/A",
+              "storage": null,
+              "color": "lightgold",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJFQ4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 42mm Aluminum darkbronze GPS",
+              "part_number": "MJFR4LS/A",
+              "storage": null,
+              "color": "darkbronze",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJFR4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Aluminum space gray GPS",
+              "part_number": "MJFT4LS/A",
+              "storage": null,
+              "color": "space gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJFT4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Aluminum black GPS",
+              "part_number": "MJFU4LS/A",
+              "storage": null,
+              "color": "black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJFU4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Aluminum lightgold GPS",
+              "part_number": "MJFV4LS/A",
+              "storage": null,
+              "color": "lightgold",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJFV4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Aluminum darkbronze GPS",
+              "part_number": "MJFW4LS/A",
+              "storage": null,
+              "color": "darkbronze",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJFW4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 42mm Aluminum space gray GPS + Cellular",
+              "part_number": "MJJD4LS/A",
+              "storage": null,
+              "color": "space gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJD4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 42mm Aluminum black GPS + Cellular",
+              "part_number": "MJJE4LS/A",
+              "storage": null,
+              "color": "black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJE4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 42mm Aluminum lightgold GPS + Cellular",
+              "part_number": "MJJF4LS/A",
+              "storage": null,
+              "color": "lightgold",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJF4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 42mm Aluminum darkbronze GPS + Cellular",
+              "part_number": "MJJG4LS/A",
+              "storage": null,
+              "color": "darkbronze",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJG4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Aluminum space gray GPS + Cellular",
+              "part_number": "MJJH4LS/A",
+              "storage": null,
+              "color": "space gray",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJH4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Aluminum black GPS + Cellular",
+              "part_number": "MJJJ4LS/A",
+              "storage": null,
+              "color": "black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJJ4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Aluminum lightgold GPS + Cellular",
+              "part_number": "MJJK4LS/A",
+              "storage": null,
+              "color": "lightgold",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJK4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Aluminum darkbronze GPS + Cellular",
+              "part_number": "MJJL4LS/A",
+              "storage": null,
+              "color": "darkbronze",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJL4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 42mm Titanium natural GPS + Cellular",
+              "part_number": "MJJM4LS/A",
+              "storage": null,
+              "color": "natural",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJM4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 42mm Titanium radiantgold GPS + Cellular",
+              "part_number": "MJJN4LS/A",
+              "storage": null,
+              "color": "radiantgold",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJN4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Titanium natural GPS + Cellular",
+              "part_number": "MJJP4LS/A",
+              "storage": null,
+              "color": "natural",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJP4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Titanium radiantgold GPS + Cellular",
+              "part_number": "MJJQ4LS/A",
+              "storage": null,
+              "color": "radiantgold",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJQ4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 42mm Ceramic pearlwhite GPS + Cellular",
+              "part_number": "MJJT4LS/A",
+              "storage": null,
+              "color": "pearlwhite",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJT4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 42mm Ceramic nightblue GPS + Cellular",
+              "part_number": "MJJU4LS/A",
+              "storage": null,
+              "color": "nightblue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJU4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Ceramic pearlwhite GPS + Cellular",
+              "part_number": "MJJV4LS/A",
+              "storage": null,
+              "color": "pearlwhite",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJV4LS/A"
+            },
+            {
+              "name": "Apple Watch Series 12 46mm Ceramic nightblue GPS + Cellular",
+              "part_number": "MJJW4LS/A",
+              "storage": null,
+              "color": "nightblue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJJW4LS/A"
+            }
+          ]
+        },
+        {
+          "name": "Apple Watch Ultra 4",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "Apple Watch Ultra 4 49mm natural",
+              "part_number": "MJCR4LS/A",
+              "storage": null,
+              "color": "natural",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJCR4LS/A"
+            },
+            {
+              "name": "Apple Watch Ultra 4 49mm black",
+              "part_number": "MJCT4LS/A",
+              "storage": null,
+              "color": "black",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MJCT4LS/A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airpods",
+      "enabled": true,
+      "models": [
+        {
+          "name": "AirPods 5",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "AirPods 5 with Wireless Charging Case",
+              "part_number": "MKFT4LL/A",
+              "storage": null,
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MKFT4LL/A"
+            },
+            {
+              "name": "AirPods 5",
+              "part_number": "MKFW4LL/A",
+              "storage": null,
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MKFW4LL/A"
+            }
+          ]
+        },
+        {
+          "name": "AirPods Max 2",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "AirPods Max 2 - Midnight",
+              "part_number": "MHWK4AM/A",
+              "storage": null,
+              "color": "Midnight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHWK4AM/A"
+            },
+            {
+              "name": "AirPods Max 2 - Starlight",
+              "part_number": "MHWL4AM/A",
+              "storage": null,
+              "color": "Starlight",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHWL4AM/A"
+            },
+            {
+              "name": "AirPods Max 2 - Blue",
+              "part_number": "MHWM4AM/A",
+              "storage": null,
+              "color": "Blue",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHWM4AM/A"
+            },
+            {
+              "name": "AirPods Max 2 - Orange",
+              "part_number": "MHWN4AM/A",
+              "storage": null,
+              "color": "Orange",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHWN4AM/A"
+            },
+            {
+              "name": "AirPods Max 2 - Purple",
+              "part_number": "MHWP4AM/A",
+              "storage": null,
+              "color": "Purple",
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MHWP4AM/A"
+            }
+          ]
+        },
+        {
+          "name": "AirPods Pro 3",
+          "enabled": true,
+          "variants": [
+            {
+              "name": "AirPods Pro 3",
+              "part_number": "MFHP4LL/A",
+              "storage": null,
+              "color": null,
+              "status": "current",
+              "enabled": false,
+              "source_url": "https://www.apple.com/shop/product/MFHP4LL/A"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
