@@ -2,6 +2,7 @@
 import hashlib
 import json
 import logging
+import math
 import re
 import time
 from urllib.parse import urlencode
@@ -17,7 +18,7 @@ def distance_miles(store):
     if raw is None:
         return None
     if isinstance(raw, (float, int)):
-        return float(raw)
+        return float(raw) if not isinstance(raw, bool) and math.isfinite(raw) and raw >= 0 else None
     match = re.fullmatch(r'\s*([\d,.]+)\s*(mi|mile|miles|km|kilometers)?\s*', str(raw), re.I)
     if not match:
         return None
@@ -65,6 +66,9 @@ def delivery_id(settings, channel):
     # Invalidate delivery state if a destination changes, without storing credentials.
     from .notifications import REQUIRED
     material = [settings.env.get(k, '') for k in REQUIRED[channel]]
+    if channel in {'bark', 'ntfy'}:
+        default = 'https://api.day.app' if channel == 'bark' else 'https://ntfy.sh'
+        material.append((settings.env.get(channel.upper() + '_SERVER') or default).rstrip('/'))
     return channel + ':' + hashlib.sha256(json.dumps(material).encode()).hexdigest()
 
 

@@ -30,7 +30,9 @@
 
 1. **Fork and choose products.** [Fork this repository](https://github.com/Ar2mis/apple-stock-radar/fork). In **your fork**, open `products.json`, click the pencil to edit, change the variants you want from `"enabled": false` to `"enabled": true`, and commit. Leave their category and model switches enabled too. All shipped variants start disabled. Open **Actions** and enable workflows if GitHub prompts you.
 2. **Add your private settings.** Open **Settings → Secrets and variables → Actions**. For Bark, create repository **Secrets** named `ZIP_CODE` (your US ZIP), `BARK_KEY` (your Bark device key), and `STATE_ENCRYPTION_KEY` (generate below). Under **Variables**, add `NOTIFY_CHANNELS=bark` and `MONITOR_ENABLED=true`. For another channel, use the [credential table](#notification-configuration).
-3. **Test, then monitor.** In your fork, open **Actions → Stock Monitor → Run workflow**, check `test_notification`, and run it to send one clearly labeled test push. Run it again with that box unchecked for a stock check. Enable **Stock Monitor** if its schedule is disabled on your fork. Scheduled checks then run every five minutes. To stop, set `MONITOR_ENABLED=false` or disable the workflow.
+3. **Test, then monitor.** Open **Actions → Stock Monitor → Run workflow**. Check `test_notification` to send one labeled test push; only your selected channel's credentials are needed. Next, uncheck it and check `dry_run` for a live stock check without pushes or saved-state changes. Leave both unchecked for a normal stock check. Enable **Stock Monitor** if its schedule is disabled on your fork. Scheduled checks run every five minutes when `MONITOR_ENABLED=true`. To stop scheduled monitoring, set it to `false` or disable the workflow; explicit manual runs still work.
+
+**Choose products privately:** instead of editing the public catalog, add a repository Secret named `PRODUCT_PARTS` containing comma-separated official part numbers from `products.json`. It overrides the catalog's enabled switches. The optional `product_parts` field in **Run workflow** overrides that list for one run; use it with `dry_run` to try another model. Manual input values are visible in run metadata, so keep personal selections in the Secret. Unknown parts fail rather than silently checking a different model. If both test boxes are checked, only the notification test runs.
 
 <details>
 <summary><strong>Generate your private encryption key — copy one command</strong></summary>
@@ -152,6 +154,8 @@ python -m apple_stock_radar --dry-run       # live lookup; no pushes or state wr
 python -m apple_stock_radar                # Ctrl+C stops monitoring
 ```
 
+You can also set `PRODUCT_PARTS` in `.env` to a comma/space-separated list from `python -m apple_stock_radar --list-products`. This selects those exact variants without editing the catalog.
+
 `STARTUP_NOTIFICATION=true` sends one labeled test on local continuous startup. To test a channel explicitly, run `python -m apple_stock_radar --test-notification`. Service acceptance confirms submission; check your device to confirm delivery.
 
 ## Notification Configuration
@@ -168,7 +172,7 @@ Set `NOTIFY_CHANNELS` to a comma-separated list, such as `bark,telegram`. Only s
 
 **What is a Bark key?** It is the device key: the first path segment after `https://api.day.app/` in the Bark app's test URL. Enter only that key in `BARK_KEY`. Keep the full test URL private too. Custom Bark/ntfy servers must use HTTPS. Discord messages disable mentions. Notification-provider account requirements and pricing are separate from this project.
 
-All settings and defaults are listed in [.env.example](.env.example). In Actions, use **Secrets** for credentials, `ZIP_CODE`, `STATE_ENCRYPTION_KEY`, and optional `STORE_NAMES`. Use **Variables** for `MONITOR_ENABLED`, `NOTIFY_CHANNELS`, and the optional non-secret settings below.
+All settings and defaults are listed in [.env.example](.env.example). In Actions, use **Secrets** for credentials, `ZIP_CODE`, `STATE_ENCRYPTION_KEY`, and optional `STORE_NAMES` and `PRODUCT_PARTS`. Use **Variables** for `MONITOR_ENABLED`, `NOTIFY_CHANNELS`, and the optional non-secret settings below.
 
 | Setting | Default | Behavior |
 | --- | --- | --- |
@@ -180,7 +184,7 @@ All settings and defaults are listed in [.env.example](.env.example). In Actions
 
 ## Cloud Scheduling and Privacy
 
-Cloud monitoring requires both enabled products and `MONITOR_ENABLED=true`. On forks, GitHub disables scheduled workflows by default; [enable the workflow in your fork](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/disable-and-enable-workflows).
+Scheduled cloud monitoring requires selected products (catalog toggles or `PRODUCT_PARTS`) and `MONITOR_ENABLED=true`. On forks, GitHub disables scheduled workflows by default; [enable the workflow in your fork](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/disable-and-enable-workflows).
 
 The workflow runs every **five minutes**, offset from the top of the hour. GitHub's shortest schedule is five minutes; runs can be delayed or dropped, and schedules on inactive public repositories can be disabled after 60 days. Three-minute reminders apply to local mode; Actions reminders arrive on the next scheduled successful check. See [GitHub's scheduling documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
 

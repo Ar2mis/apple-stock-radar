@@ -8,6 +8,14 @@ on:
         description: Send one startup test instead of checking stock
         type: boolean
         default: false
+      dry_run:
+        description: Check live stock without sending notifications or changing saved state
+        type: boolean
+        default: false
+      product_parts:
+        description: Optional comma-separated catalog part numbers for this run (visible in run metadata)
+        type: string
+        default: ''
 permissions:
   contents: read
 concurrency:
@@ -15,11 +23,12 @@ concurrency:
   cancel-in-progress: false
 jobs:
   monitor:
-    if: vars.MONITOR_ENABLED == 'true'
+    if: github.event_name == 'workflow_dispatch' || vars.MONITOR_ENABLED == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
       ZIP_CODE: ${{ secrets.ZIP_CODE }}
+      PRODUCT_PARTS: ${{ inputs.product_parts || secrets.PRODUCT_PARTS }}
       SEARCH_RADIUS_MILES: ${{ vars.SEARCH_RADIUS_MILES || '50' }}
       STORE_NAMES: ${{ secrets.STORE_NAMES }}
       CHECK_INTERVAL_SECONDS: ${{ vars.CHECK_INTERVAL_SECONDS || '60' }}
@@ -46,20 +55,25 @@ jobs:
         with:
           python-version: '3.13'
       - run: python -m pip install -e .
+      - name: Explicit startup test
+        if: ${{ inputs.test_notification }}
+        run: python -m apple_stock_radar --test-notification
+      - name: Live stock dry run
+        if: ${{ inputs.dry_run && !inputs.test_notification }}
+        run: python -m apple_stock_radar --dry-run
       - name: Compute private state scope
+        if: ${{ !inputs.test_notification && !inputs.dry_run }}
         id: scope
         run: echo "value=$(python -m apple_stock_radar --cache-scope)" >> "$GITHUB_OUTPUT"
       - uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        if: ${{ !inputs.test_notification && !inputs.dry_run }}
         with:
           path: .state/monitor.state
           key: radar-v1-${{ steps.scope.outputs.value }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: radar-v1-${{ steps.scope.outputs.value }}-
       - name: Check inventory
-        if: ${{ !inputs.test_notification }}
+        if: ${{ !inputs.test_notification && !inputs.dry_run }}
         run: python -m apple_stock_radar --once
-      - name: Explicit startup test
-        if: ${{ inputs.test_notification }}
-        run: python -m apple_stock_radar --test-notification
       - uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         if: ${{ always() && steps.scope.outputs.value != '' && hashFiles('.state/monitor.state') != '' }}
         with:

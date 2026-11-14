@@ -8,10 +8,10 @@ import threading
 import unittest
 from unittest.mock import Mock, patch
 from cryptography.fernet import Fernet
-from apple_stock_radar.catalog import CATEGORIES, Product, discover_page, load_catalog, merge_catalog, products, write_catalog, part_from_url
+from apple_stock_radar.catalog import CATEGORIES, Product, discover_page, load_catalog, merge_catalog, products, write_catalog, part_from_url, select_products
 from apple_stock_radar.config import RadarError, Settings, load_dotenv
 from apple_stock_radar.http import Client, Backoff, SafeRedirect, apple_url
-from apple_stock_radar.monitor import cycle, parse_stock, reconcile
+from apple_stock_radar.monitor import cycle, parse_stock, reconcile, delivery_id
 from apple_stock_radar.notifications import Notifier
 from apple_stock_radar.state import StateStore, scope
 from update_catalog import crawl
@@ -33,6 +33,20 @@ def stock(available='available', distance='2.5 mi'):
 
 
 class CatalogTests(unittest.TestCase):
+    def test_private_selection_switches_all_product_families(self):
+        data = load_catalog(Path(__file__).parents[1] / 'products.json')
+        original = copy.deepcopy(data)
+        all_products = products(data, False)
+        for category in CATEGORIES:
+            candidates = [p for p in all_products if p.category == category]
+            self.assertTrue(candidates)
+            for p in candidates:
+                with self.subTest(category=category, part=p.part):
+                    self.assertEqual(select_products(data, f' {p.part.lower()}, {p.part} '), [p])
+        with self.assertRaises(RadarError):
+            select_products(data, all_products[0].part + ',MUNKNOWN/A')
+        self.assertEqual(data, original)  # Selection does not mutate users' toggles.
+
     def test_metrics_named_records_only(self):
         markup = '<script type="application/json">' + json.dumps({'data': {'products': [
             {'partNumber': 'MTEST01/A', 'name': 'iPhone 18 Pro 256GB Blue'},
@@ -129,6 +143,34 @@ class MonitorTests(unittest.TestCase):
         with self.assertRaises(RadarError): parse_stock(stock(distance=None), P, self.s)
         self.assertEqual(len(parse_stock(stock(distance=None), P, settings(SEARCH_RADIUS_MILES='0'))), 1)
         self.assertEqual(len(parse_stock(stock(distance='60 km'), P, self.s)), 1)
+        for distance in [float('nan'), float('inf'), -1, True]:
+            with self.subTest(distance=distance), self.assertRaises(RadarError):
+                parse_stock(stock(distance=distance), P, self.s)
+
+    def test_switching_models_keeps_notifications_independent(self):
+        ps = products(load_catalog(Path(__file__).parents[1] / 'products.json'), False)
+        selected = [next(p for p in ps if p.category == c) for c in CATEGORIES]
+        def fetch(client, p, s):
+            data = stock()
+            data['body']['stores'][0]['partsAvailability'] = {p.part: {'pickupDisplay': 'available'}}
+            return parse_stock(data, p, s)
+        for index, p in enumerate(selected):
+            result = cycle([p], self.s, Mock(), self.notifier, self.state, self.store, self.stop,
+                           now=lambda: 1000, fetch=fetch)
+            self.assertEqual(result['errors'], 0)
+            self.assertEqual(self.notifier.send.call_count, index + 1)
+        cycle(selected, self.s, Mock(), self.notifier, self.state, self.store, self.stop,
+              now=lambda: 1179, fetch=fetch)
+        self.assertEqual(self.notifier.send.call_count, len(selected))
+        cycle(selected, self.s, Mock(), self.notifier, self.store.read(), self.store, self.stop,
+              now=lambda: 1180, fetch=fetch)
+        self.assertEqual(self.notifier.send.call_count, len(selected) * 2)
+
+    def test_changing_notification_server_invalidates_delivery_identity(self):
+        self.assertEqual(delivery_id(settings(), 'bark'),
+                         delivery_id(settings(BARK_SERVER='https://api.day.app/'), 'bark'))
+        self.assertNotEqual(delivery_id(settings(), 'bark'),
+                            delivery_id(settings(BARK_SERVER='https://example.org'), 'bark'))
 
     def test_store_filter(self):
         self.assertEqual(parse_stock(stock(), P, settings(STORE_NAMES='different store')), [])

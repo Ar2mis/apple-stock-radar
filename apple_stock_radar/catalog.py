@@ -68,6 +68,21 @@ def products(data, enabled_only=True):
     return result
 
 
+def select_products(data, parts=''):
+    """An explicit private SKU list overrides catalog toggles; unknown SKUs fail closed."""
+    if not parts.strip():
+        selected = products(data)
+    else:
+        requested = list(dict.fromkeys(p.upper() for p in re.split(r'[\s,]+', parts.strip())))
+        available = {p.part: p for p in products(data, False)}
+        if any(p not in available for p in requested):
+            raise RadarError('PRODUCT_PARTS contains an unknown part; use --list-products to find official catalog parts')
+        selected = [available[p] for p in requested]
+    if not selected:
+        raise RadarError('No products selected: set PRODUCT_PARTS or enable variants in products.json')
+    return selected
+
+
 class Page(HTMLParser):
     def __init__(self, source):
         super().__init__(convert_charrefs=True)

@@ -6,7 +6,7 @@ import os
 import signal
 import threading
 import time
-from .catalog import Product, load_catalog, products
+from .catalog import Product, load_catalog, products, select_products
 from .config import RadarError, Settings, load_dotenv
 from .http import Client
 from .monitor import cycle, parse_stock
@@ -62,9 +62,7 @@ def main():
         if args.offline:
             selected = [Product('MTEST01/A', 'Synthetic iPhone', 'iphone', 'Synthetic', '256GB', 'Blue', 'https://www.apple.com/shop')]
         else:
-            selected = products(load_catalog(settings.catalog))
-            if not selected:
-                raise RadarError('No enabled variants: enable products in products.json')
+            selected = select_products(load_catalog(settings.catalog), settings.env.get('PRODUCT_PARTS', ''))
         store = StateStore(settings.state_path, settings.encryption_key, cloud=os.environ.get('GITHUB_ACTIONS') == 'true' and not args.dry_run)
         state = {'version': 1, 'stock': {}, 'cooldown_until': 0} if args.dry_run else store.read()
         current_scope = scope(settings)
